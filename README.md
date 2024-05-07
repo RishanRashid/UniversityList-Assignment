@@ -1,0 +1,1 @@
+This project is designed to provide users with a comprehensive list of universities located in the United Arab Emirates. Built using the VIPER architecture 🚀 Features: VIPER Architecture: Utilizes the VIPER design pattern for a modular, scalable, and testable codebase.iO
