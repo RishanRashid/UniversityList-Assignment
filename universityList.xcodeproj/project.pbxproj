@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4EF74A2BEA24C1009E3D08 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AE4EF7492BEA24C1009E3D08 /* RealmSwift */; };
 		AEAF61EC2BEA038000738154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF61EB2BEA038000738154 /* AppDelegate.swift */; };
 		AEAF61EE2BEA038000738154 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF61ED2BEA038000738154 /* SceneDelegate.swift */; };
 		AEAF61F02BEA038000738154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF61EF2BEA038000738154 /* ViewController.swift */; };
@@ -16,6 +17,53 @@
 		AEAF62032BEA038100738154 /* universityListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62022BEA038100738154 /* universityListTests.swift */; };
 		AEAF620D2BEA038100738154 /* universityListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF620C2BEA038100738154 /* universityListUITests.swift */; };
 		AEAF620F2BEA038100738154 /* universityListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF620E2BEA038100738154 /* universityListUITestsLaunchTests.swift */; };
+		AEAF622F2BEA097D00738154 /* UniversityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF622D2BEA097D00738154 /* UniversityTableCell.swift */; };
+		AEAF62302BEA097D00738154 /* UniversityTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEAF622E2BEA097D00738154 /* UniversityTableCell.xib */; };
+		AEAF62322BEA0A8100738154 /* UniversityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62312BEA0A8100738154 /* UniversityListViewController.swift */; };
+		AEAF62342BEA0AD100738154 /* UniversityListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62332BEA0AD100738154 /* UniversityListInteractor.swift */; };
+		AEAF62362BEA0AF300738154 /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62352BEA0AF300738154 /* UniversityListPresenter.swift */; };
+		AEAF62372BEA0AF300738154 /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62352BEA0AF300738154 /* UniversityListPresenter.swift */; };
+		AEAF62382BEA0AF300738154 /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62352BEA0AF300738154 /* UniversityListPresenter.swift */; };
+		AEAF623A2BEA0B2D00738154 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62392BEA0B2D00738154 /* University.swift */; };
+		AEAF623B2BEA0B2D00738154 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62392BEA0B2D00738154 /* University.swift */; };
+		AEAF623C2BEA0B2D00738154 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62392BEA0B2D00738154 /* University.swift */; };
+		AEAF623E2BEA0B4D00738154 /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF623D2BEA0B4D00738154 /* UniversityListRouter.swift */; };
+		AEAF623F2BEA0B4D00738154 /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF623D2BEA0B4D00738154 /* UniversityListRouter.swift */; };
+		AEAF62402BEA0B4D00738154 /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF623D2BEA0B4D00738154 /* UniversityListRouter.swift */; };
+		AEAF62422BEA0B9100738154 /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62412BEA0B9100738154 /* ListService.swift */; };
+		AEAF62432BEA0B9100738154 /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62412BEA0B9100738154 /* ListService.swift */; };
+		AEAF62442BEA0B9100738154 /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62412BEA0B9100738154 /* ListService.swift */; };
+		AEAF624C2BEA0C6000738154 /* UniversityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF624B2BEA0C6000738154 /* UniversityDetailsViewController.swift */; };
+		AEAF624D2BEA0C6000738154 /* UniversityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF624B2BEA0C6000738154 /* UniversityDetailsViewController.swift */; };
+		AEAF624E2BEA0C6000738154 /* UniversityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF624B2BEA0C6000738154 /* UniversityDetailsViewController.swift */; };
+		AEAF62502BEA0C8300738154 /* UniversityDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF624F2BEA0C8300738154 /* UniversityDetailsInteractor.swift */; };
+		AEAF62512BEA0C8300738154 /* UniversityDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF624F2BEA0C8300738154 /* UniversityDetailsInteractor.swift */; };
+		AEAF62522BEA0C8300738154 /* UniversityDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF624F2BEA0C8300738154 /* UniversityDetailsInteractor.swift */; };
+		AEAF62542BEA0CAC00738154 /* UniversityDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62532BEA0CAC00738154 /* UniversityDetailsPresenter.swift */; };
+		AEAF62552BEA0CAC00738154 /* UniversityDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62532BEA0CAC00738154 /* UniversityDetailsPresenter.swift */; };
+		AEAF62562BEA0CAC00738154 /* UniversityDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62532BEA0CAC00738154 /* UniversityDetailsPresenter.swift */; };
+		AEAF62582BEA0CD400738154 /* UniversityDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62572BEA0CD400738154 /* UniversityDetailsRouter.swift */; };
+		AEAF62592BEA0CD400738154 /* UniversityDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62572BEA0CD400738154 /* UniversityDetailsRouter.swift */; };
+		AEAF625A2BEA0CD400738154 /* UniversityDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62572BEA0CD400738154 /* UniversityDetailsRouter.swift */; };
+		AEAF625D2BEA0D2A00738154 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF625C2BEA0D2A00738154 /* NetworkManager.swift */; };
+		AEAF625E2BEA0D2A00738154 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF625C2BEA0D2A00738154 /* NetworkManager.swift */; };
+		AEAF625F2BEA0D2A00738154 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF625C2BEA0D2A00738154 /* NetworkManager.swift */; };
+		AEAF62612BEA0D4100738154 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62602BEA0D4100738154 /* Types.swift */; };
+		AEAF62622BEA0D4100738154 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62602BEA0D4100738154 /* Types.swift */; };
+		AEAF62632BEA0D4100738154 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62602BEA0D4100738154 /* Types.swift */; };
+		AEAF62652BEA0D6300738154 /* UI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62642BEA0D6300738154 /* UI+Extensions.swift */; };
+		AEAF62662BEA0D6300738154 /* UI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62642BEA0D6300738154 /* UI+Extensions.swift */; };
+		AEAF62672BEA0D6300738154 /* UI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62642BEA0D6300738154 /* UI+Extensions.swift */; };
+		AEAF626A2BEA0DA200738154 /* Mappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62692BEA0DA200738154 /* Mappings.swift */; };
+		AEAF626B2BEA0DA200738154 /* Mappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62692BEA0DA200738154 /* Mappings.swift */; };
+		AEAF626C2BEA0DA200738154 /* Mappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62692BEA0DA200738154 /* Mappings.swift */; };
+		AEAF626F2BEA0E0B00738154 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF626E2BEA0E0B00738154 /* PersistenceManager.swift */; };
+		AEAF62702BEA0E0B00738154 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF626E2BEA0E0B00738154 /* PersistenceManager.swift */; };
+		AEAF62712BEA0E0B00738154 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF626E2BEA0E0B00738154 /* PersistenceManager.swift */; };
+		AEAF62742BEA0E3F00738154 /* UniversityRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62732BEA0E3F00738154 /* UniversityRealmModel.swift */; };
+		AEAF62752BEA0E3F00738154 /* UniversityRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62732BEA0E3F00738154 /* UniversityRealmModel.swift */; };
+		AEAF62762BEA0E3F00738154 /* UniversityRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF62732BEA0E3F00738154 /* UniversityRealmModel.swift */; };
+		AECD75592BEA18AA006EA81A /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = AECD75582BEA18AA006EA81A /* Reachability */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +97,24 @@
 		AEAF62082BEA038100738154 /* universityListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = universityListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAF620C2BEA038100738154 /* universityListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universityListUITests.swift; sourceTree = "<group>"; };
 		AEAF620E2BEA038100738154 /* universityListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universityListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEAF622D2BEA097D00738154 /* UniversityTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityTableCell.swift; sourceTree = "<group>"; };
+		AEAF622E2BEA097D00738154 /* UniversityTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityTableCell.xib; sourceTree = "<group>"; };
+		AEAF62312BEA0A8100738154 /* UniversityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListViewController.swift; sourceTree = "<group>"; };
+		AEAF62332BEA0AD100738154 /* UniversityListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListInteractor.swift; sourceTree = "<group>"; };
+		AEAF62352BEA0AF300738154 /* UniversityListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListPresenter.swift; sourceTree = "<group>"; };
+		AEAF62392BEA0B2D00738154 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		AEAF623D2BEA0B4D00738154 /* UniversityListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListRouter.swift; sourceTree = "<group>"; };
+		AEAF62412BEA0B9100738154 /* ListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListService.swift; sourceTree = "<group>"; };
+		AEAF624B2BEA0C6000738154 /* UniversityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsViewController.swift; sourceTree = "<group>"; };
+		AEAF624F2BEA0C8300738154 /* UniversityDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsInteractor.swift; sourceTree = "<group>"; };
+		AEAF62532BEA0CAC00738154 /* UniversityDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsPresenter.swift; sourceTree = "<group>"; };
+		AEAF62572BEA0CD400738154 /* UniversityDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsRouter.swift; sourceTree = "<group>"; };
+		AEAF625C2BEA0D2A00738154 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AEAF62602BEA0D4100738154 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		AEAF62642BEA0D6300738154 /* UI+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+Extensions.swift"; sourceTree = "<group>"; };
+		AEAF62692BEA0DA200738154 /* Mappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappings.swift; sourceTree = "<group>"; };
+		AEAF626E2BEA0E0B00738154 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		AEAF62732BEA0E3F00738154 /* UniversityRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityRealmModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4EF74A2BEA24C1009E3D08 /* RealmSwift in Frameworks */,
+				AECD75592BEA18AA006EA81A /* Reachability in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +167,8 @@
 		AEAF61EA2BEA038000738154 /* universityList */ = {
 			isa = PBXGroup;
 			children = (
+				AEAF62242BEA083100738154 /* Modules */,
+				AEAF625B2BEA0D0200738154 /* Common */,
 				AEAF61EB2BEA038000738154 /* AppDelegate.swift */,
 				AEAF61ED2BEA038000738154 /* SceneDelegate.swift */,
 				AEAF61EF2BEA038000738154 /* ViewController.swift */,
@@ -127,6 +197,158 @@
 			path = universityListUITests;
 			sourceTree = "<group>";
 		};
+		AEAF62242BEA083100738154 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62252BEA084100738154 /* UniversityList */,
+				AEAF62262BEA086900738154 /* UniversityDetails */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AEAF62252BEA084100738154 /* UniversityList */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62272BEA08AC00738154 /* View */,
+				AEAF622B2BEA08C000738154 /* interactor */,
+				AEAF622A2BEA08BC00738154 /* Presenter */,
+				AEAF62292BEA08BA00738154 /* Entity */,
+				AEAF62282BEA08B700738154 /* Router */,
+			);
+			path = UniversityList;
+			sourceTree = "<group>";
+		};
+		AEAF62262BEA086900738154 /* UniversityDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62482BEA0BCC00738154 /* View */,
+				AEAF62472BEA0BCA00738154 /* Interactor */,
+				AEAF62462BEA0BC700738154 /* Presenter */,
+				AEAF62452BEA0BC400738154 /* Entity */,
+				AEAF626D2BEA0DF200738154 /* persistence */,
+				AEAF624A2BEA0C3000738154 /* Router */,
+			);
+			path = UniversityDetails;
+			sourceTree = "<group>";
+		};
+		AEAF62272BEA08AC00738154 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF622C2BEA093F00738154 /* tableViewCell */,
+				AEAF62312BEA0A8100738154 /* UniversityListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEAF62282BEA08B700738154 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF623D2BEA0B4D00738154 /* UniversityListRouter.swift */,
+				AEAF62412BEA0B9100738154 /* ListService.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AEAF62292BEA08BA00738154 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62392BEA0B2D00738154 /* University.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AEAF622A2BEA08BC00738154 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62352BEA0AF300738154 /* UniversityListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AEAF622B2BEA08C000738154 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62332BEA0AD100738154 /* UniversityListInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		AEAF622C2BEA093F00738154 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF622D2BEA097D00738154 /* UniversityTableCell.swift */,
+				AEAF622E2BEA097D00738154 /* UniversityTableCell.xib */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		AEAF62452BEA0BC400738154 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AEAF62462BEA0BC700738154 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62532BEA0CAC00738154 /* UniversityDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AEAF62472BEA0BCA00738154 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF624F2BEA0C8300738154 /* UniversityDetailsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AEAF62482BEA0BCC00738154 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF624B2BEA0C6000738154 /* UniversityDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEAF624A2BEA0C3000738154 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62572BEA0CD400738154 /* UniversityDetailsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AEAF625B2BEA0D0200738154 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF625C2BEA0D2A00738154 /* NetworkManager.swift */,
+				AEAF62602BEA0D4100738154 /* Types.swift */,
+				AEAF62642BEA0D6300738154 /* UI+Extensions.swift */,
+				AEAF62692BEA0DA200738154 /* Mappings.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AEAF626D2BEA0DF200738154 /* persistence */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62722BEA0E2600738154 /* persistentModel */,
+				AEAF626E2BEA0E0B00738154 /* PersistenceManager.swift */,
+			);
+			path = persistence;
+			sourceTree = "<group>";
+		};
+		AEAF62722BEA0E2600738154 /* persistentModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF62732BEA0E3F00738154 /* UniversityRealmModel.swift */,
+			);
+			path = persistentModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +365,10 @@
 			dependencies = (
 			);
 			name = universityList;
+			packageProductDependencies = (
+				AECD75582BEA18AA006EA81A /* Reachability */,
+				AE4EF7492BEA24C1009E3D08 /* RealmSwift */,
+			);
 			productName = universityList;
 			productReference = AEAF61E82BEA038000738154 /* universityList.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +441,10 @@
 				Base,
 			);
 			mainGroup = AEAF61DF2BEA038000738154;
+			packageReferences = (
+				AECD75572BEA18AA006EA81A /* XCRemoteSwiftPackageReference "Reachability" */,
+				AE4EF7482BEA24C1009E3D08 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = AEAF61E92BEA038000738154 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +463,7 @@
 			files = (
 				AEAF61F82BEA038100738154 /* LaunchScreen.storyboard in Resources */,
 				AEAF61F52BEA038100738154 /* Assets.xcassets in Resources */,
+				AEAF62302BEA097D00738154 /* UniversityTableCell.xib in Resources */,
 				AEAF61F32BEA038000738154 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +489,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEAF623E2BEA0B4D00738154 /* UniversityListRouter.swift in Sources */,
+				AEAF62742BEA0E3F00738154 /* UniversityRealmModel.swift in Sources */,
 				AEAF61F02BEA038000738154 /* ViewController.swift in Sources */,
 				AEAF61EC2BEA038000738154 /* AppDelegate.swift in Sources */,
+				AEAF624C2BEA0C6000738154 /* UniversityDetailsViewController.swift in Sources */,
+				AEAF62362BEA0AF300738154 /* UniversityListPresenter.swift in Sources */,
+				AEAF62582BEA0CD400738154 /* UniversityDetailsRouter.swift in Sources */,
+				AEAF62542BEA0CAC00738154 /* UniversityDetailsPresenter.swift in Sources */,
+				AEAF62502BEA0C8300738154 /* UniversityDetailsInteractor.swift in Sources */,
+				AEAF62322BEA0A8100738154 /* UniversityListViewController.swift in Sources */,
+				AEAF622F2BEA097D00738154 /* UniversityTableCell.swift in Sources */,
+				AEAF623A2BEA0B2D00738154 /* University.swift in Sources */,
+				AEAF62652BEA0D6300738154 /* UI+Extensions.swift in Sources */,
+				AEAF626A2BEA0DA200738154 /* Mappings.swift in Sources */,
+				AEAF62612BEA0D4100738154 /* Types.swift in Sources */,
+				AEAF62422BEA0B9100738154 /* ListService.swift in Sources */,
+				AEAF625D2BEA0D2A00738154 /* NetworkManager.swift in Sources */,
+				AEAF626F2BEA0E0B00738154 /* PersistenceManager.swift in Sources */,
+				AEAF62342BEA0AD100738154 /* UniversityListInteractor.swift in Sources */,
 				AEAF61EE2BEA038000738154 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +516,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEAF62512BEA0C8300738154 /* UniversityDetailsInteractor.swift in Sources */,
+				AEAF62752BEA0E3F00738154 /* UniversityRealmModel.swift in Sources */,
+				AEAF62702BEA0E0B00738154 /* PersistenceManager.swift in Sources */,
+				AEAF623F2BEA0B4D00738154 /* UniversityListRouter.swift in Sources */,
+				AEAF625E2BEA0D2A00738154 /* NetworkManager.swift in Sources */,
+				AEAF62372BEA0AF300738154 /* UniversityListPresenter.swift in Sources */,
+				AEAF62432BEA0B9100738154 /* ListService.swift in Sources */,
+				AEAF624D2BEA0C6000738154 /* UniversityDetailsViewController.swift in Sources */,
 				AEAF62032BEA038100738154 /* universityListTests.swift in Sources */,
+				AEAF626B2BEA0DA200738154 /* Mappings.swift in Sources */,
+				AEAF62662BEA0D6300738154 /* UI+Extensions.swift in Sources */,
+				AEAF62592BEA0CD400738154 /* UniversityDetailsRouter.swift in Sources */,
+				AEAF62552BEA0CAC00738154 /* UniversityDetailsPresenter.swift in Sources */,
+				AEAF62622BEA0D4100738154 /* Types.swift in Sources */,
+				AEAF623B2BEA0B2D00738154 /* University.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +538,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEAF626C2BEA0DA200738154 /* Mappings.swift in Sources */,
 				AEAF620F2BEA038100738154 /* universityListUITestsLaunchTests.swift in Sources */,
+				AEAF623C2BEA0B2D00738154 /* University.swift in Sources */,
 				AEAF620D2BEA038100738154 /* universityListUITests.swift in Sources */,
+				AEAF62632BEA0D4100738154 /* Types.swift in Sources */,
+				AEAF62442BEA0B9100738154 /* ListService.swift in Sources */,
+				AEAF62712BEA0E0B00738154 /* PersistenceManager.swift in Sources */,
+				AEAF625F2BEA0D2A00738154 /* NetworkManager.swift in Sources */,
+				AEAF62562BEA0CAC00738154 /* UniversityDetailsPresenter.swift in Sources */,
+				AEAF62762BEA0E3F00738154 /* UniversityRealmModel.swift in Sources */,
+				AEAF62402BEA0B4D00738154 /* UniversityListRouter.swift in Sources */,
+				AEAF62522BEA0C8300738154 /* UniversityDetailsInteractor.swift in Sources */,
+				AEAF62382BEA0AF300738154 /* UniversityListPresenter.swift in Sources */,
+				AEAF62672BEA0D6300738154 /* UI+Extensions.swift in Sources */,
+				AEAF624E2BEA0C6000738154 /* UniversityDetailsViewController.swift in Sources */,
+				AEAF625A2BEA0CD400738154 /* UniversityDetailsRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -440,15 +716,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJZ7P4XP6T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = universityList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +733,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.greaterboston.ClientNAV.universityList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,15 +745,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJZ7P4XP6T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = universityList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +762,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.greaterboston.ClientNAV.universityList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,6 +881,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE4EF7482BEA24C1009E3D08 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.49.3;
+			};
+		};
+		AECD75572BEA18AA006EA81A /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE4EF7492BEA24C1009E3D08 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE4EF7482BEA24C1009E3D08 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		AECD75582BEA18AA006EA81A /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AECD75572BEA18AA006EA81A /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AEAF61E02BEA038000738154 /* Project object */;
 }
