@@ -25,7 +25,5 @@ class UniversityDetailsPresenter {
     }
 }
 
-// MARK: - UniversityDetails Presenter Output
 extension UniversityDetailsPresenter  {
-    // No requirements yet
 }

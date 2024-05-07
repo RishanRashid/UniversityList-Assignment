@@ -7,7 +7,6 @@
 
 import UIKit
 
-// University details from last table view data using viper architecture
 class UniversityDetailsViewController: UIViewController {
     var presenter: UniversityDetailsPresenter?
 

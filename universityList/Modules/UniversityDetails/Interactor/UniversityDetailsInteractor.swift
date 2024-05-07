@@ -8,9 +8,7 @@
 import Foundation
 
 protocol UniversityDetailsInteractorInput {
-    // No requirements yet
 }
 
 class UniversityDetailsInteractor: UniversityDetailsInteractorInput {
-    // No requirements yet
 }

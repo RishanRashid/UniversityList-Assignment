@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         let listVC = UniversityListRouter().createModule()
-        let navVC = UINavigationController(rootViewController: listVC) // Embed in a navigation
+        let navVC = UINavigationController(rootViewController: listVC) 
         window?.rootViewController = navVC
         window?.makeKeyAndVisible()
     }
